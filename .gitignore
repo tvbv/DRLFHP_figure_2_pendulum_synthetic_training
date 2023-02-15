@@ -1,0 +1,6 @@
+.venv/
+logs_pref1400/
+logs_pref350/
+logs_pref700/
+logs_truth/
+training_350_700_1400.png
