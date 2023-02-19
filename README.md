@@ -3,7 +3,24 @@
 The code in this repository implements **deep reinforcement learning from synthetic preferences** on the **pendulum environment** of OpenAI's Gym, allowing you to recreate Figure 2 of the paper linked here: https://arxiv.org/pdf/1706.03741.pdf.
 
 ## 1. Introduction
-Recreating the results in research papers can be a challenge, but it is also an essential part of scientific progress. This code provides an opportunity to gain a deeper understanding of the work done in the "Deep Reinforcement Learning from Human Preferences" paper. Specifically, the code enables the creation of the **second figure** in the paper, which demonstrates the results of deep reinforcement learning from synthetic preferences.
+Recreating the results in research papers can be a challenge, but it is also an essential part of scientific progress. This code provides an opportunity to gain a deeper understanding of the work done in the "Deep Reinforcement Learning from Human Preferences" paper. Specifically, the code enables the creation of the **second figure** in the paper, which demonstrates the results of deep reinforcement learning from synthetic preferences on the pendulum environment of OpenAI's Gym.
+
+We can see in the following gif that the agent is able to learn the desired behavior (keeping the pendulum upright) after being trained with true reward and with the reward:
+
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:25px">Agent trained on true reward:</b></td>
+    <td>   </td>
+    <td><b style="font-size:25px">Agent trained on synthetic reward:</b></td>
+ </tr>
+ <tr>
+    <td>    <img src="./pendulum_true_reward.gif" width="300" height="300" /> </td>
+    <td>   </td>
+    <td>    <img src="./pendulum_synthetic_reward.gif" width="300" height="300" /></td>
+ </tr>
+</table>
+
 
 ## 2. Requirements and Installation
 
